@@ -21,7 +21,7 @@ main{
     min-width: 382px;
     padding: 5px;
     margin: auto;
-    box-shadow: 5px black azure;
+    box-shadow: 10px black;
     border-radius: 5px 5px 5px 5px;
 
 }
@@ -31,9 +31,11 @@ main{
 
     height: 225px;
     width: 382px;
+    margin-left: auto;
     background-color: white;
     box-shadow: 10px black;
     border-bottom:50px #3DB7A0;
+    border-color: blue;
     border-radius: 5px;
     padding: 5px;
 }
@@ -80,7 +82,6 @@ main{
     font-size: 20px;
     color:rgb(21, 68, 68);
     text-align:left;
-    font-weight: bold;
 }
 
 #generica2 > h3{
