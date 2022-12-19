@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'titulos';
+    src: url(../font/coolvetica\ condensed\ rg.otf) format('opentype');
+    font-weight: normal;
+}
+
+
+
+body{
+   width: 100%;
+   background-image: url('../imagem/5505099.jpg');
+}
+
+main{
+    display: block;
+    padding: 5px;
+    position: relative;
+    width: 50%;
+    height: 500px;
+    max-width: 320px;
+    min-width: 382px;
+    padding: 5px;
+    margin: auto;
+    box-shadow: 5px black azure;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+#principal{
+    display: inline-block;
+
+    height: 225px;
+    width: 382px;
+    background-color: white;
+    box-shadow: 10px black;
+    border-bottom:50px #3DB7A0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#generica1{
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    top: 45%;
+    left: 5px;
+    height: 278px;
+    width: 190px;
+    background-color: #3DB7A0;
+}
+
+#generica2{
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    flex-wrap: wrap;
+    top: 45%;
+    left: 50%;
+    height: 278px;
+    width: 191px;
+    background-color:#369e89;
+}
+
+.titulos{
+    font-family: titulos;
+    text-shadow: 5px black;
+    font-size: 20px;
+    color: rgb(7, 56, 99);
+}
+
+.paragrafos{
+    font-family: titulos, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(111, 161, 161);
+    box-shadow: 5px black blue;
+}
+
+.paragrafos2{
+    font-family: titulos, Helvetica, sans-serif;
+    font-size: 20px;
+    color:rgb(21, 68, 68);
+    text-align:left;
+    font-weight: bold;
+}
+
+#generica2 > h3{
+    font-family: titulos;
+    color: white;
+    text-align: center;
+}
+
+#generica2 > p{
+    position: relative;
+    top: 5px;
+}
+
+big{
+    font-size: 80px;
+    color: aliceblue;
+}
+
+.botão{
+    padding: 5px;
+    position: relative;
+    border: 5px;
+    background-color: greenyellow;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    top: -17px;
+    left: -5px;
+}
+
+#img2{
+    position: relative;
+    left: 50px;
+    top: -19px;
+}
